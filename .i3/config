@@ -33,13 +33,16 @@ workspace 8 output VGA1
 workspace 9 output VGA1
 workspace 10 output VGA1
 
-font pango:DejaVu Sans Mono 8
+font pango:Hack 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec konsole
+
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
 
 # kill focused window
 bindsym $mod+Shift+q kill
