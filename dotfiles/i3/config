@@ -33,7 +33,7 @@ workspace 8 output VGA1
 workspace 9 output VGA1
 workspace 10 output VGA1
 
-font pango:Hack 8
+font pango:DejaVu Sans Mono 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
